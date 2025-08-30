@@ -1,0 +1,69 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.header {
+  background-color: #4CAF50; /* verde */
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+.controls button {
+  margin: 5px 5px 0 0;
+  padding: 6px 10px;
+  font-family: "Georgia",serif; 
+}
+
+.controls input {
+  margin: 5px 5px 0 0;
+  padding: 6px 10px;
+}
+
+
+.content {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.content section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.content.stacked {            /*Columnas a filas */
+  flex-direction: column;
+}
+
+.content.alt h2 {            /*Boton de colores */
+  color: darkred;
+}
+.content.alt p {
+  color: teal;
+}
+
+
+.footer {
+  background-color: #2196F3; /* azul */
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+.footer img {
+  margin-top: 10px;           /*Imagen al footer */
+  max-width: 150px;
+  border-radius: 6px;
+}
